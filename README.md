@@ -12,9 +12,9 @@ The following table summarizes the required modifications to implement the Drone
 
 | Variable                 | Description                                                                        
 | ------------------------ | ---------------------------------------------------------------------------------- 
-| cities          | Visualization of the field through a grid composed by X and Y elements. Each element a1, a2, a3, b1... should be given a coordinate within the field in the format [X, Y]. For instance, [1,1] or [3,1]  |                                                   
-| rows                   | Number of rows within the predefined grid. It should be the maximum value of X within [X, Y] |                                                    
-| columns                 | Number of columns within the predefined grid. It should be the maximum value of Y within [X, Y]  |
+| cities          | Visualization of the field through a grid composed by X and Y elements. Each element a1, a2, a3, b1... should be given a coordinate within the field in the format [X, Y]. For instance, [1,1] or [3,1].  |                                                  
+| rows                   | Number of rows within the predefined grid. It should be the maximum value of X within [X, Y]. |                                                    
+| columns                 | Number of columns within the predefined grid. It should be the maximum value of Y within [X, Y].  |
 | SttPotGlI        | Position(s) above which the UAV will start designing the path. In case there is more than one value, the algorithm will design a path for each individual UAV. The sum of the individual paths will cover the whole field. |
 | rho                    | Pheromone evaporation rate. It should be between 0 and 1.  |
 
