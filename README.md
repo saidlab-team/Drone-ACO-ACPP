@@ -18,6 +18,11 @@ The following table summarizes the required modifications to implement the Drone
 | SttPotGlI        | Position(s) above which the UAV will start designing the path. In case there is more than one value, the algorithm will design a path for each individual UAV. The sum of the individual paths will cover the whole field. |
 | rho                    | Pheromone evaporation rate. It should be between 0 and 1.  |
 
+## Outputs
+There software outputs three results: (1) the Route to be followed, (2) metrics' graphs such as the cost per the number of iterations, the minimum interation cost per number of iterations, and the mean cost per number of iterations, and (3) the pheromones graph for the designed path. An example of the outputs is shown in the Figure below. Moreover, it includes three scenarios regarding the route to be followed, considering one, two, and three UAVs flying synchronously. 
+
+![GitHub](https://github.com/saidlab-team/Drone-ACO-ACPP/assets/59556308/5e516aa5-ff20-454e-973e-4075c0803aa0)
+
 ## Available dataset
 A [dataset](https://doi.org/10.1016/j.dib.2022.108876) including multispectral UAV imagery over a vineyard is provided to generate the orthomosaic, Digital Surface Model (DSM), Digital Terrain Model (DTM), and Canopy Height Model (CHM) and obtain insights on the biophysical characteristics of the field, that will be helpful to select the Forbidden areas. 
 
