@@ -1,6 +1,8 @@
 # Drone-ACO-ACPP
 Drone-ACO-ACPP ia an open-source and novel approach for Path Planning to enhance UAV data collection for fruit detection in crops trained in vertical trellis, for instance, woody crops such as vineyards. The novelty of the proposed method consists on considering the biophysical environment of the field and being able to fly multiple UAVs at the same time considering a safety distance between them. The optimization algorithm utilized is the Ant Colony Optimization (ACO). 
 
+![Drone3](https://github.com/saidlab-team/Drone-ACO-ACPP/assets/59556308/bf061b82-78e0-42e8-b32e-fee97a266973)
+
 ## How to run the code?
 The Drone-ACO-ACPP software is programmed in MATLAB (The MathWorks Inc., Massachussets). The whole code can be run through the main script (MMAS.m). However, the other two scripts (NNFc.m and NNS.m) need to be run to be able to execute the main script. 
 MMAS.m incorporates the initial overview of the field, along with the constraints or areas above which the UAV is not allowed to fly. Those areas are previously defined thanks to a prior nadir flight, which considers the Canopy Height Model (CHM) and the identified obstacles around the field. 
