@@ -21,12 +21,12 @@ The following table summarizes the required modifications to implement the Drone
 | rho                    | Pheromone evaporation rate. It should be between 0 and 1.  |
 
 ## Outputs
-There software outputs three results: (1) the Route to be followed, (2) metrics' graphs such as the cost per the number of iterations, the minimum interation cost per number of iterations, and the mean cost per number of iterations, and (3) the pheromones graph for the designed path. An example of the outputs is shown in the Figure below. Moreover, it includes three scenarios regarding the route to be followed, considering one, two, and three UAVs flying synchronously. 
+The software outputs three results: (1) the Route to be followed, (2) metrics' graphs such as the cost per the number of iterations, the minimum iteration cost per number of iterations, and the mean cost per number of iterations, and (3) the pheromones graph for the designed path. An example of the outputs is shown in the Figure below. Moreover, it includes three scenarios regarding the route to be followed, considering one, two, and three UAVs flying synchronously. 
 
 ![GitHub](https://github.com/saidlab-team/Drone-ACO-ACPP/assets/59556308/5e516aa5-ff20-454e-973e-4075c0803aa0)
 
 ## Available dataset
-A [dataset](https://doi.org/10.1016/j.dib.2022.108876) including multispectral UAV imagery over a vineyard is provided to generate the orthomosaic, Digital Surface Model (DSM), Digital Terrain Model (DTM), and Canopy Height Model (CHM) and obtain insights on the biophysical characteristics of the field, that will be helpful to select the Forbidden areas. 
+A [dataset](https://doi.org/10.1016/j.dib.2022.108876) including multispectral UAV imagery over a vineyard is provided to generate the orthomosaic, Digital Surface Model (DSM), Digital Terrain Model (DTM), and Canopy Height Model (CHM) to obtain insights on the biophysical characteristics of the field, that will be helpful to select the Forbidden areas. 
 
 ## Citation
 Drone-ACO-ACPP - An open-source approach to enhance fruit detection through a Path Planning design based on the biophysical environment of the field. saidlab-team/Drone-ACO-ACPP Github Page 2023, https://github.com/saidlab-team/Drone-ACO-ACPP
